@@ -1,1 +1,55 @@
 @import url(./fonts.css);
+
+/* Custom props */
+:root{
+    --primary-color:#7177F1;
+    --body:#151437;
+    --text-color:#fff;     /*3232328*/
+    --dots:#EBEBEB;   /*828282*/
+    --dots-active:#7177F1;
+    --white:#fff;
+    --subtitle:#EBEBEB;   /*3232328*/
+    --footer-link:#fff;     /*7177F1*/
+    --montserrat:"Montserrat";
+    --trebuchet:"Trebuchet";
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style: none !important;
+}
+
+.all-btn{
+    display: block;
+    max-width: 190px;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-family: var(--montserrat);
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 1px rgba(113, 119, 241, 0.50);
+    text-align: center;
+    transform: .5s;
+
+}
+.all-btn:hover{
+    background-color: #790FF1;
+    color: var(--white);
+}
+
+.all-btn:active{
+    opacity: .7;
+}
