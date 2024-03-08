@@ -1,0 +1,9 @@
+@media (prefers-color-scheme: dark){
+    :root{
+        --body:#151437;
+        --text-color:#323232;
+        ---dots:#828282;
+        --subtitle:#323232;
+        --footer-link:#7177F1;
+    }
+}

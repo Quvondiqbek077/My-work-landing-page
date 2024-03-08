@@ -144,3 +144,53 @@ body {
 .header-menu:not(.collapsed) .header-menu__line{
     background-color: transparent;
 }
+
+/* Site-hero */
+.site-hero__subtitle{
+    color: var(--text-color);
+    margin-bottom: 18px !important;
+    font-family: var(--montserrat);
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.site-hero__btn{
+    max-width: 299px;
+    width: 100%;
+    margin: 25px auto 50px;
+}
+.site-hero__tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+.site-hero__tech--name{
+    color: var(--primary-color);
+    font-size: var(--montserrat);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.carousel-indicators{
+    bottom: -55px !important;
+    display: flex;
+    column-gap: 20px;
+}
+.carousel-indicators > button{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: var(--dots);
+    opacity: 1 !important;
+}
+.carousel-indicators > button:active{
+    background-color: var(--dots-active) !important;
+}
+
+.site-hero__image{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
